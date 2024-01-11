@@ -21,4 +21,17 @@ public class Person {
     this.height = height;
 
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+    public String getLastName() {
+        return lastName;
+    }
+    public int getAge(){
+        return age;
+    }
+    public boolean isTeen(){
+        return age >= 13 && age <= 19;
+    }
 }
