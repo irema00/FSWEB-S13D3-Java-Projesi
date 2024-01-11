@@ -9,4 +9,7 @@ public class Person {
     public Person(){
         System.out.println("Person built");
     }
+    public Person(String firstName, String lastName, int age){
+
+    }
 }
