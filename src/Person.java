@@ -6,4 +6,7 @@ public class Person {
     boolean isEmployed;
     double height;
 
+    public Person(){
+        System.out.println("Person built");
+    }
 }
